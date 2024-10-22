@@ -72,7 +72,7 @@ export default function Home() {
                     {dataFound !== null ?
                          <div>
                             <h1 style={{color:'black'}}>Download NGO Data</h1>
-                            <a href="/ngo.json" download="ngo.json">
+                            <a href="/ngo.json" download="ngo.json" style={{color:'black'}}>
                                 Download ngo.json
                             </a>
                           </div>
